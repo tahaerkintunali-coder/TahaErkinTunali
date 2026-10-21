@@ -1,0 +1,22 @@
+// Brand artwork is served locally so every card remains independent of remote image hosts.
+export const softwareAssets: Record<string,{src:string;vendor?:string}> = {
+  'gt-suite': {src:'/TahaErkinTunali/software/gamma-technologies.png',vendor:'Gamma Technologies'},
+  matlab: {src:'/TahaErkinTunali/software/matlab.png'},
+  simulink: {src:'/TahaErkinTunali/software/simulink.png'},
+  ansys: {src:'/TahaErkinTunali/software/ansys.png'},
+  pvsyst: {src:'/TahaErkinTunali/software/pvsyst.svg'},
+  retscreen: {src:'/TahaErkinTunali/software/retscreen.jpg'},
+  autocad: {src:'/TahaErkinTunali/software/autocad.png'},
+  solidworks: {src:'/TahaErkinTunali/software/solidworks.svg'},
+  'siemens-nx': {src:'/TahaErkinTunali/software/siemens-nx.png'},
+  catia: {src:'/TahaErkinTunali/software/catia.svg'},
+  fusion: {src:'/TahaErkinTunali/software/fusion-360.png'},
+  teamcenter: {src:'/TahaErkinTunali/software/teamcenter.png'},
+  python: {src:'/TahaErkinTunali/software/python.svg'},
+  c: {src:'/TahaErkinTunali/software/c-language-community.svg'},
+  tableau: {src:'/TahaErkinTunali/software/tableau.png'},
+  excel: {src:'/TahaErkinTunali/software/excel.svg'},
+  word: {src:'/TahaErkinTunali/software/word.svg'},
+  powerpoint: {src:'/TahaErkinTunali/software/powerpoint.svg'},
+  fpwin: {src:'/TahaErkinTunali/software/panasonic.jpg',vendor:'Panasonic'},
+};

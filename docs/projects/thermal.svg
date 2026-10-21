@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img">
+    <title>Vehicle thermal system illustration</title><defs>
+    <linearGradient id="back" x2="1" y2="1"><stop stop-color="#20394f"/><stop offset="1" stop-color="#0d1926"/></linearGradient>
+    <linearGradient id="steel" x2=".3" y2="1"><stop stop-color="#b0c6d5"/><stop offset=".42" stop-color="#607f98"/><stop offset="1" stop-color="#2b435b"/></linearGradient>
+    <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#74d5e5" stop-opacity=".55"/><stop offset="1" stop-color="#74d5e5" stop-opacity=".12"/></linearGradient>
+    <linearGradient id="panel" x2="1" y2="1"><stop stop-color="#34698d"/><stop offset="1" stop-color="#122d47"/></linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#64849f" stroke-width=".5" opacity=".15"/></pattern>
+    <radialGradient id="halo"><stop stop-color="#74d5e5" stop-opacity=".13"/><stop offset="1" stop-color="#74d5e5" stop-opacity="0"/></radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3"/></filter></defs>
+    <rect width="640" height="360" fill="url(#back)"/><rect width="640" height="360" fill="url(#grid)"/>
+    <ellipse cx="320" cy="180" rx="300" ry="170" fill="url(#halo)"/>
+    <ellipse cx="321" cy="269" rx="234" ry="26" fill="#080f19" opacity=".55"/>
+    <g transform="translate(0 0)" stroke-linejoin="round">
+    <path d="M103 155L293 155L322 170L135 171Z" fill="#8bb0c2" opacity=".16" stroke="#739ab4"/>
+    <path d="M103 155V204L135 224V171Z" fill="#3a5970" stroke="#7294ac"/>
+    <path d="M135 171H322V222H135Z" fill="#21374e" stroke="#7294ac"/>
+    <path d="M322 222V127L369 119L410 142V226Z" fill="url(#steel)" stroke="#9cb8ca"/>
+    <path d="M369 119L400 126L430 149L410 142Z" fill="#b1c4d0" stroke="#9cb8ca"/>
+    <path d="M410 142L430 149V229L410 226Z" fill="#344e64" stroke="#7a9db6"/>
+    <path d="M334 134L368 129L396 147V169H334Z" fill="#102a3e" stroke="#afd1e5"/>
+    <path d="M375 134L397 148" stroke="#476981" stroke-width="3"/>
+    <path d="M336 181H402M345 188H402" stroke="#98afbd" opacity=".5"/>
+    <path d="M430 173H417M428 182H417M428 191H417" stroke="#a4bccb" stroke-width="3"/>
+    <path d="M124 222H429" stroke="#192736" stroke-width="9"/>
+    <g fill="#112134" stroke="#708ba1" stroke-width="3"><ellipse cx="171" cy="229" rx="20" ry="25"/><ellipse cx="277" cy="229" rx="20" ry="25"/><ellipse cx="386" cy="229" rx="20" ry="25"/></g>
+    <g fill="#b0c5d3"><ellipse cx="171" cy="229" rx="8" ry="12"/><ellipse cx="277" cy="229" rx="8" ry="12"/><ellipse cx="386" cy="229" rx="8" ry="12"/></g>
+    </g><path d="M150 189H292V215H150Z" fill="url(#glass)" stroke="#85dbeb" stroke-width="1.5"/>
+<path d="M152 178H298V203H327V229H350" fill="none" stroke="#70d3e6" stroke-width="3"/>
+<path d="M154 208H300V151H330" fill="none" stroke="#e3a38c" stroke-width="3"/>
+<g stroke="#a4d7e5" opacity=".65"><path d="M161 194V210"/><path d="M175 194V210"/><path d="M189 194V210"/><path d="M203 194V210"/><path d="M217 194V210"/><path d="M231 194V210"/><path d="M245 194V210"/><path d="M259 194V210"/><path d="M273 194V210"/><path d="M287 194V210"/></g>
+<rect x="325" y="175" width="14" height="38" rx="2" fill="#274e68" stroke="#a0c7d8"/>
+<path d="M329 180V208M335 180V208" stroke="#a0c7d8"/>
+<circle cx="354" cy="226" r="12" fill="#24465a" stroke="#88d2e1"/>
+<path d="M220 194V104H146M332 180L464 91H529M354 226L488 265H544" fill="none" stroke="#7ba5c0" stroke-width="1"/>
+<text x="75" y="95" fill="#b0c8df" font-family="Arial,sans-serif" font-size="12" letter-spacing=".5" text-anchor="start">BATTERY &amp; THERMAL MODEL</text><text x="471" y="82" fill="#b0c8df" font-family="Arial,sans-serif" font-size="12" letter-spacing=".5" text-anchor="start">COOLING LOOP</text><text x="458" y="287" fill="#b0c8df" font-family="Arial,sans-serif" font-size="12" letter-spacing=".5" text-anchor="start">ELECTRIC DRIVE</text></svg>

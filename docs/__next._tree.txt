@@ -1,0 +1,4 @@
+:HL["/TahaErkinTunali/_next/static/css/8034438cb4d63e94.css","style"]
+:HL["/TahaErkinTunali/_next/static/css/bf14a17bd1dadc0e.css","style"]
+:HL["/TahaErkinTunali/fonts/manrope-latin.woff2","font",{"crossOrigin":"anonymous","type":"font/woff2"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"PaHS1d0nyNtAcgj8kSdVy"}

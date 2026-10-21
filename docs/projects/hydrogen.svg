@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img">
+    <title>Hybrid battery and fuel cell thesis illustration</title><defs>
+    <linearGradient id="back" x2="1" y2="1"><stop stop-color="#20394f"/><stop offset="1" stop-color="#0d1926"/></linearGradient>
+    <linearGradient id="steel" x2=".3" y2="1"><stop stop-color="#b0c6d5"/><stop offset=".42" stop-color="#607f98"/><stop offset="1" stop-color="#2b435b"/></linearGradient>
+    <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#b3a7ee" stop-opacity=".55"/><stop offset="1" stop-color="#b3a7ee" stop-opacity=".12"/></linearGradient>
+    <linearGradient id="panel" x2="1" y2="1"><stop stop-color="#34698d"/><stop offset="1" stop-color="#122d47"/></linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#64849f" stroke-width=".5" opacity=".15"/></pattern>
+    <radialGradient id="halo"><stop stop-color="#b3a7ee" stop-opacity=".13"/><stop offset="1" stop-color="#b3a7ee" stop-opacity="0"/></radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3"/></filter></defs>
+    <rect width="640" height="360" fill="url(#back)"/><rect width="640" height="360" fill="url(#grid)"/>
+    <ellipse cx="320" cy="180" rx="300" ry="170" fill="url(#halo)"/>
+    <ellipse cx="321" cy="269" rx="234" ry="26" fill="#080f19" opacity=".55"/>
+    <g transform="translate(0 -17)" stroke-linejoin="round">
+    <path d="M103 155L293 155L322 170L135 171Z" fill="#8bb0c2" opacity=".16" stroke="#739ab4"/>
+    <path d="M103 155V204L135 224V171Z" fill="#3a5970" stroke="#7294ac"/>
+    <path d="M135 171H322V222H135Z" fill="#21374e" stroke="#7294ac"/>
+    <path d="M322 222V127L369 119L410 142V226Z" fill="url(#steel)" stroke="#9cb8ca"/>
+    <path d="M369 119L400 126L430 149L410 142Z" fill="#b1c4d0" stroke="#9cb8ca"/>
+    <path d="M410 142L430 149V229L410 226Z" fill="#344e64" stroke="#7a9db6"/>
+    <path d="M334 134L368 129L396 147V169H334Z" fill="#102a3e" stroke="#afd1e5"/>
+    <path d="M375 134L397 148" stroke="#476981" stroke-width="3"/>
+    <path d="M336 181H402M345 188H402" stroke="#98afbd" opacity=".5"/>
+    <path d="M430 173H417M428 182H417M428 191H417" stroke="#a4bccb" stroke-width="3"/>
+    <path d="M124 222H429" stroke="#192736" stroke-width="9"/>
+    <g fill="#112134" stroke="#708ba1" stroke-width="3"><ellipse cx="171" cy="229" rx="20" ry="25"/><ellipse cx="277" cy="229" rx="20" ry="25"/><ellipse cx="386" cy="229" rx="20" ry="25"/></g>
+    <g fill="#b0c5d3"><ellipse cx="171" cy="229" rx="8" ry="12"/><ellipse cx="277" cy="229" rx="8" ry="12"/><ellipse cx="386" cy="229" rx="8" ry="12"/></g>
+    </g><rect x="151" y="174" width="71" height="29" rx="3" fill="url(#glass)" stroke="#a9a7ed"/>
+<rect x="243" y="173" width="65" height="28" rx="3" fill="#335362" stroke="#91d6c8"/>
+<g fill="#7d72b7" fill-opacity=".6" stroke="#c1b6f1"><rect x="158" y="125" width="86" height="10" rx="5"/><rect x="158" y="140" width="86" height="10" rx="5"/></g>
+<path d="M185 176V269H112M276 176V269H307M206 130L286 82H370" fill="none" stroke="#90a4c8"/>
+<path d="M222 187H243" stroke="#b5aaf2" stroke-width="2"/>
+<g transform="translate(481 152)"><path d="M0 32L16 5L32 32Z" fill="url(#glass)" stroke="#bdd5e5"/><path d="M0 32H32M6 22H26M11 13H21" stroke="#bdd5e5"/><circle cx="17" cy="-14" r="13" fill="#d3c890" opacity=".75"/><path d="M17 -34V-29M17 1V6M-4 -14H1M33 -14H39" stroke="#d3c890"/></g>
+<path d="M498 196V237H362" fill="none" stroke="#88bdbe" stroke-dasharray="4 5"/>
+<text x="66" y="292" fill="#b0c8df" font-family="Arial,sans-serif" font-size="12" letter-spacing=".5" text-anchor="start">BATTERY</text><text x="247" y="292" fill="#b0c8df" font-family="Arial,sans-serif" font-size="12" letter-spacing=".5" text-anchor="start">FUEL CELL</text><text x="304" y="73" fill="#b0c8df" font-family="Arial,sans-serif" font-size="12" letter-spacing=".5" text-anchor="start">HYDROGEN STORAGE</text><text x="451" y="259" fill="#b0c8df" font-family="Arial,sans-serif" font-size="12" letter-spacing=".5" text-anchor="start">RENEWABLE H₂</text></svg>

@@ -1,0 +1,28 @@
+.contact-direct{margin-top:28px;max-width:560px}
+.contact-channels{display:grid;gap:11px}
+.contact-channel{display:flex;align-items:center;gap:16px;min-height:98px;padding:17px 19px;border:1px solid #405571;border-radius:14px;background:linear-gradient(115deg,#24364bba,#1a2a3c80);color:#f1f5fa;transition:border-color .2s,background .2s,transform .2s}
+.contact-channel-icon{display:grid;place-items:center;flex:0 0 46px;width:46px;height:46px;border:1px solid #6789ae4d;border-radius:13px;background:#7daee915;color:#b6d8ff}
+.contact-channel-linkedin .contact-channel-icon{border-color:#65b6e94d;background:#0a66c233;color:#97d5ff}
+.contact-channel-copy{display:grid;gap:4px;flex:1;min-width:0}
+.contact-channel-label{font-size:10px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#9fb5cf}
+.contact-channel-copy strong{font-size:clamp(14px,1.3vw,17px);line-height:1.5;font-weight:600;overflow-wrap:anywhere}
+.contact-channel-action{font-size:11px;line-height:1.5;color:#aabdd5}
+.contact-channel-arrow{flex-shrink:0;color:#9ebadd;transition:transform .2s}
+.contact-channel:focus-visible{outline:2px solid #bfddff;outline-offset:4px;border-color:#bfddff}
+.contact-location{display:flex;align-items:center;gap:8px;margin:18px 0 0!important;font-size:12px!important;line-height:1.5!important;color:#9fb5cf}
+@media(hover:hover) and (pointer:fine){
+  .contact-channel:hover{border-color:#8aafd7;background:linear-gradient(115deg,#2d4663,#20334a);transform:translateX(3px)}
+  .contact-channel:hover .contact-channel-arrow{transform:translate(2px,-2px)}
+}
+@media(max-width:600px){
+  .contact-direct{margin-top:23px;max-width:none}
+  .contact-channels{gap:9px}
+  .contact-channel{gap:12px;min-height:90px;padding:14px 13px;border-radius:12px}
+  .contact-channel-icon{flex-basis:40px;width:40px;height:40px;border-radius:11px}
+  .contact-channel-copy strong{font-size:14px}
+  .contact-channel-arrow{width:16px;height:16px}
+}
+@media(prefers-reduced-motion:reduce){
+  .contact-channel,.contact-channel-arrow{transition:none}
+  .contact-channel:hover,.contact-channel:hover .contact-channel-arrow{transform:none}
+}

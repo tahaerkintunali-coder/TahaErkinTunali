@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img">
+    <title>Manufacturing and inspection workflow illustration</title><defs>
+    <linearGradient id="back" x2="1" y2="1"><stop stop-color="#20394f"/><stop offset="1" stop-color="#0d1926"/></linearGradient>
+    <linearGradient id="steel" x2=".3" y2="1"><stop stop-color="#b0c6d5"/><stop offset=".42" stop-color="#607f98"/><stop offset="1" stop-color="#2b435b"/></linearGradient>
+    <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#80d4b5" stop-opacity=".55"/><stop offset="1" stop-color="#80d4b5" stop-opacity=".12"/></linearGradient>
+    <linearGradient id="panel" x2="1" y2="1"><stop stop-color="#34698d"/><stop offset="1" stop-color="#122d47"/></linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#64849f" stroke-width=".5" opacity=".15"/></pattern>
+    <radialGradient id="halo"><stop stop-color="#80d4b5" stop-opacity=".13"/><stop offset="1" stop-color="#80d4b5" stop-opacity="0"/></radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3"/></filter></defs>
+    <rect width="640" height="360" fill="url(#back)"/><rect width="640" height="360" fill="url(#grid)"/>
+    <ellipse cx="320" cy="180" rx="300" ry="170" fill="url(#halo)"/>
+    <ellipse cx="321" cy="269" rx="234" ry="26" fill="#080f19" opacity=".55"/>
+    <path d="M82 205L363 205L494 259L212 259Z" fill="#294b5a" stroke="#7798aa"/>
+<path d="M82 205V224L212 281V259Z" fill="#1b3548" stroke="#60869b"/>
+<path d="M212 259H494V276H212Z" fill="#1b3042" stroke="#60869b"/>
+<g stroke="#6f9bab" opacity=".5"><path d="M95 207l124 51"/><path d="M113 207l124 51"/><path d="M131 207l124 51"/><path d="M149 207l124 51"/><path d="M167 207l124 51"/><path d="M185 207l124 51"/><path d="M203 207l124 51"/><path d="M221 207l124 51"/><path d="M239 207l124 51"/><path d="M257 207l124 51"/><path d="M275 207l124 51"/><path d="M293 207l124 51"/><path d="M311 207l124 51"/><path d="M329 207l124 51"/><path d="M347 207l124 51"/></g>
+<path d="M232 113V198M227 115H340" stroke="#9cbbce" stroke-width="9"/>
+<rect x="304" y="109" width="39" height="25" rx="5" fill="url(#steel)" stroke="#c3d3df"/>
+<circle cx="320" cy="138" r="8" fill="#162f43" stroke="#b2d7db"/>
+<path d="M320 146L250 204H407Z" fill="#80d4b5" opacity=".08"/>
+<path d="M166 199l39 -14l32 16l-39 16Z" fill="url(#glass)" stroke="#9edbc8"/><path d="M166 199v24l32 16v-22Z" fill="#315d61" stroke="#89babb"/><path d="M198 217l39 -16v24l-39 14Z" fill="#1e3b50" stroke="#89babb"/>
+<path d="M293 217l38 -14l34 16l-39 16Z" fill="url(#glass)" stroke="#9edbc8"/><path d="M293 217v24l33 16v-22Z" fill="#315d61" stroke="#89babb"/><path d="M326 235l39 -16v24l-39 14Z" fill="#1e3b50" stroke="#89babb"/>
+<path d="M156 186H244V242H156Z" fill="none" stroke="#84d4b6" stroke-width="1.4" stroke-dasharray="7 5"/>
+<path d="M280 197H376V265H280Z" fill="none" stroke="#ddb081" stroke-width="1.4" stroke-dasharray="7 5"/>
+<rect x="440" y="82" width="127" height="107" rx="8" fill="#203c51" stroke="#6e97b2"/>
+<path d="M455 155H554M455 121H554" stroke="#49768e"/>
+<path d="M459 143l8 8l15 -19" fill="none" stroke="#89d9b8" stroke-width="2"/>
+<path d="M459 169l8 8l15 -19" fill="none" stroke="#89d9b8" stroke-width="2"/>
+<path d="M503 136H544M503 162H544" stroke="#a1c5da" stroke-width="2"/>
+<text x="92" y="105" fill="#b0c8df" font-family="Arial,sans-serif" font-size="12" letter-spacing=".5" text-anchor="start">CAMERA INSPECTION</text><text x="455" y="107" fill="#b0c8df" font-family="Arial,sans-serif" font-size="12" letter-spacing=".5" text-anchor="start">QUALITY DATA</text><text x="157" y="302" fill="#b0c8df" font-family="Arial,sans-serif" font-size="12" letter-spacing=".5" text-anchor="start">PRODUCTION → INSPECTION → REPORTING</text></svg>
